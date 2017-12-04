@@ -1,8 +1,5 @@
 import sys
 
-def rotate(l, n):
-    return l[-n:] + l[:-n]
-
 
 def digitize(digits):
     counts = []
